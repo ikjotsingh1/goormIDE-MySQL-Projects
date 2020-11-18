@@ -1,0 +1,82 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+    text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+	color: rgb(66,69,86);
+	background-image: url('https://www.askdrsears.com/wp-content/uploads/2013/08/7-reason-vegetables-good-ads-fb.jpg');
+	background-size: cover;
+	font-weight: 100;
+
+}
+
+/* Verically centers everything - is inline with div class part on home.ejs */
+/* .flex-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+} */
+
+/* Main title */
+h1 {
+	margin: -50;
+    font-size: 100px;
+    line-height: 400px;
+    font-weight: 100;	
+}
+
+p {
+  margin: -10; /* moves the "enter your email" and button up/down */
+  font-size: 40px;
+}
+
+.form {
+	line-height: 1.5; 
+	border: none;
+	border-bottom: 3px solid #ebebeb;
+	margin-top: 100px;
+	width: 700px;
+	font-size: 2.9em;
+	color: white;
+	padding: 5px 10px;
+	background: transparent;
+}
+
+button {
+    line-height: 2.0; 
+    border:3px solid white; /* Adds 3 pixel solid border */
+    font-size: 1.5em; /* Makes the font size bigger */
+    color: rgb(66,69,86); /* Changes the color */
+    padding: 5px 30px; 
+    background: rgba(255,255,255,1.0); /* Adding background color */
+    border-radius: 5px; /* Makes it rounded */
+    opacity: 0.8; /* Makes it slightly see through */
+}
+
+
+/* Gets rid of the white outline around the "Enter Your Email" text box */
+input[type=text]:focus {
+  outline: none;
+}
+
+/* Sets the color of the "Enter Your Email" texrt to turn white or transparent when you start typing */
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(255,255,255,0.8);
+}
+
+button:hover{
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
